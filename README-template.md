@@ -33,7 +33,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/AshlavaDev/qr-code](https://github.com/AshlavaDev/qr-code)
 - Live Site URL: [https://ashlavadev.github.io/qr-code/](https://ashlavadev.github.io/qr-code/)
 
 ## My process
