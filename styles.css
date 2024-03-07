@@ -1,4 +1,6 @@
 /* The stylesheet used to code, that is compiled into styles.css */
+/* variables */
+/* A custom color for my footer links */
 /* padding and margin reset */
 * {
   margin: 0;
@@ -7,7 +9,10 @@
 }
 
 body {
-  background-color: #D5E1EF;
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
 }
 
 .main {
@@ -22,15 +27,15 @@ body {
   width: 100%;
   text-align: center;
   padding: 10px 0;
-  background-color: #2E3A4D;
-  color: #fff;
+  background-color: hsl(218, 44%, 22%);
+  color: hsl(0, 0%, 100%);
 }
 .footer a {
   color: #9f5fac;
   text-decoration: none;
 }
 .footer a:hover {
-  color: #8baed6;
+  color: hsl(212, 45%, 89%);
 }
 
 /*# sourceMappingURL=styles.css.map */
