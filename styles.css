@@ -21,6 +21,40 @@ body {
   align-items: center;
   height: 100vh;
 }
+.main .container {
+  width: 320px;
+  height: 497px;
+  padding: 16px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.main .container .qr-code {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+.main .container .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.main .container .text .heading, .main .container .text .main-text {
+  text-align: center;
+}
+.main .container .text .heading {
+  font-size: 22px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+.main .container .text .main-text {
+  color: hsl(220, 15%, 55%);
+  padding: 0 16px;
+}
 
 .footer {
   bottom: 0;

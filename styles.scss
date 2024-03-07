@@ -9,6 +9,7 @@ $dark-blue: hsl(218, 44%, 22%);
 $purple: #9f5fac; /* A custom color for my footer links */
 
 $body-font-size: 15px;
+$heading-font-size: 22px;
 
 $font-family: 'Outfit', sans-serif;
 $font-normal: 400;
@@ -23,7 +24,7 @@ $font-bold: 700;
 
 body {
   background-color: $light-grey;
-  
+
   font-size: $body-font-size;
   font-family: $font-family;
   font-weight: $font-normal;
@@ -34,6 +35,51 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+
+  .container {
+    width: 320px;
+    height: 497px;
+
+    padding: 16px;
+
+    background-color: $white;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    .qr-code {
+      width: 288px;
+      height: 288px;
+
+      border-radius: 10px;
+    }
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+
+      .heading, .main-text {
+        text-align: center;
+      }
+
+      .heading {
+        font-size: $heading-font-size;
+        font-weight: $font-bold;
+        color: $dark-blue;
+      }
+
+      .main-text {
+        color: $grayish-blue;
+        padding: 0 16px;
+      }
+    }
+  }
 }
 
 .footer {
