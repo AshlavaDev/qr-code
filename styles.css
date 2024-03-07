@@ -43,7 +43,8 @@ body {
   align-items: center;
   gap: 16px;
 }
-.main .container .text .heading, .main .container .text .main-text {
+.main .container .text .heading,
+.main .container .text .main-text {
   text-align: center;
 }
 .main .container .text .heading {

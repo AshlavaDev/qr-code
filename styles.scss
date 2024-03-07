@@ -11,7 +11,7 @@ $purple: #9f5fac; /* A custom color for my footer links */
 $body-font-size: 15px;
 $heading-font-size: 22px;
 
-$font-family: 'Outfit', sans-serif;
+$font-family: "Outfit", sans-serif;
 $font-normal: 400;
 $font-bold: 700;
 
@@ -64,7 +64,8 @@ body {
       align-items: center;
       gap: 16px;
 
-      .heading, .main-text {
+      .heading,
+      .main-text {
         text-align: center;
       }
 
