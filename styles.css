@@ -1,3 +1,36 @@
 /* The stylesheet used to code, that is compiled into styles.css */
+/* padding and margin reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D5E1EF;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #2E3A4D;
+  color: #fff;
+}
+.footer a {
+  color: #9f5fac;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #8baed6;
+}
 
 /*# sourceMappingURL=styles.css.map */
